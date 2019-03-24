@@ -14,4 +14,5 @@
   </div>
 </div>
 <br>
-<button class="btn btn-block btn-success" (click)="start()"> START</button>
+<button *ngIf="!running" class="btn btn-block btn-success" (click)="start()"> START</button>
+<button *ngIf="running" class="btn btn-block btn-danger" (click)="stop()"> STOP</button>
