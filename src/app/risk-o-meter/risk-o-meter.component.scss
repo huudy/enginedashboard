@@ -1,0 +1,32 @@
+h2{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #40c3dc ;
+    color:#00c9f2;
+}
+hr{
+    background-color: #00c9f2;
+}
+
+
+.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    > .col,
+    > [class*="col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+.pad-top{
+  padding-top: 150px;
+}
+ .gear {
+  margin: auto;
+  width: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 40px;
+  border: 2px solid #666;
+}

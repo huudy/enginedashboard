@@ -1,0 +1,17 @@
+<div class="row no-gutters">
+  <div class="col col-md-3 pad-top">
+    <!-- <div [chart]="riskometer"></div> -->
+    <div class="gear">{{gear}}</div>
+  </div>
+  <div class="col col-md-3">
+    <div [chart]="chartSpeed"></div>
+  </div>
+  <div class="col col-md-3">
+    <div [chart]="chartRpm"></div>
+  </div>
+  <div class="col col-md-3">
+    <div [chart]="engineRpm"></div>
+  </div>
+</div>
+<br>
+<button class="btn btn-block btn-success" (click)="start()"> START</button>
