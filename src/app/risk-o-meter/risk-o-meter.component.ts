@@ -303,7 +303,7 @@ export class RiskOMeterComponent implements OnInit {
 
             if (this.i === logs.length) clearInterval(this.interval);
 
-        }, 500);
+        }, 50);
     }
 
     stop(){
@@ -348,9 +348,9 @@ export class RiskOMeterComponent implements OnInit {
                 y: -70
             },
             stops: [
-                [0.1, '#55BF3B'], // green
-                [0.5, '#DDDF0D'], // yellow
-                [0.9, '#DF5353'] // red
+                [0.1, '#30d308'], // green
+                [0.5, '#fbff1c'], // yellow
+                [0.9, '#d10202'] // red
             ],
             lineWidth: 0,
             minorTickInterval: null,
@@ -421,9 +421,9 @@ export class RiskOMeterComponent implements OnInit {
                 text: 'RPM skrzynia'
             },
             stops: [
-                [0.1, '#55BF3B'], // green
-                [0.5, '#DDDF0D'], // yellow
-                [0.9, '#DF5353'] // red
+                [0.1, '#30d308'], // green
+                [0.5, '#fbff1c'], // yellow
+                [0.9, '#d10202'] // red
             ],
             lineWidth: 0,
             minorTickInterval: null,
@@ -493,9 +493,9 @@ export class RiskOMeterComponent implements OnInit {
                 text: 'RPM'
             },
             stops: [
-                [0.1, '#55BF3B'], // green
-                [0.5, '#DDDF0D'], // yellow
-                [0.9, '#DF5353'] // red
+                [0.1, '#30d308'], // green
+                [0.5, '#fbff1c'], // yellow
+                [0.9, '#d10202'] // red
             ],
             lineWidth: 0,
             minorTickInterval: null,
